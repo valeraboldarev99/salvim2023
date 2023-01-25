@@ -578,7 +578,7 @@ body {
 .sidebar_opened {
 	-webkit-transform: translateX(0);
 	transform: translateX(0);
-	width: 85%;
+	width: 100%;
 }
 
 .sidebar-overlay {
