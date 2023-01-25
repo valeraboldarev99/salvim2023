@@ -19,4 +19,10 @@ $(document).ready(function () {
 		]
 	});
 
+	// модалка
+	$('[data-fancybox=""]').fancybox({
+		focus: false
+	 });
+
+
 });

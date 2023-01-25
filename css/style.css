@@ -113,11 +113,6 @@ body {
 	margin: 0 30px;
 }
 
-.search input,
-.search button {
-	display: none;
-}
-
 .search_btn {
 	width: 40px;
 	height: 40px;
@@ -126,7 +121,63 @@ body {
 	background-size: 40px;
 	border: none;
 	cursor: pointer;
+	text-decoration: none;
+	display: block;
 }
+
+.modal-container {
+	width: 80%;
+	height: auto;
+	padding: 40px 60px;
+	background: #fff;
+}
+
+.modal {
+	width: 100%;
+	height: 100%;
+}
+
+.search__header {
+	font-size: 35px;
+	margin: 0 0 20px 0;
+}
+
+.search__form form {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.search__form input {
+	border: 1px solid #0067aa;
+	color: #464646;
+	overflow: hidden;
+	font-size: 20px;
+	width: 90%;
+	padding: 10px 25px;
+	border-radius: 33px;
+	margin-right: 35px;
+}
+
+.search__form button {
+	width: 45px;
+	height: 45px;
+	overflow: hidden;
+	background: url('../img/search.png') center center no-repeat;
+	background-size: 45px;
+	border: none;
+	cursor: pointer;
+}
+
+.search__form button:hover {
+	background: url('../img/search.png') center center no-repeat;
+	background-size: 45px;
+}
+
+.search__form input::-webkit-input-placeholder {color:#707070;}
+.search__form input::-moz-placeholder          {color:#707070;}
+.search__form input:-moz-placeholder           {color:#707070;}
+.search__form input:-ms-input-placeholder      {color:#707070;}
 
 .header__lang {
 	position: absolute;
@@ -228,19 +279,6 @@ body {
 	position: relative;
 }
 
-.main__content_item:hover .main__content_header {
-	color: #00a910;
-}
-
-.main__content_item:hover {
-	transform: scale(1.03);
-	-webkit-transition: all 0.5s ease-in-out;
-	-moz-transition: all 0.5s ease-in-out;
-	-ms-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
-	transition: all 0.5s ease-in-out;
-}
-
 .main__content_block-name {
 	font-size: 11px;
 	font-weight: bold;
@@ -266,6 +304,26 @@ body {
 
 .main__content_img {
 	width: 100%;
+	overflow: hidden;
+}
+
+.main__content_img img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.main__content_item:hover .main__content_header {
+	color: #00a910;
+}
+
+.main__content_item:hover .main__content_img img {
+	transform: scale(1.03);
 }
 
 .main__content_info {
