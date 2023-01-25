@@ -323,11 +323,11 @@ body {
 }
 
 .main__content_item:hover .main__content_img img {
-	transform: scale(1.03);
+	transform: scale(1.1);
 }
 
 .main__content_info {
-	padding: 10px;
+	padding: 10px 10px 0 10px;
 }
 
 .main__content_header {
