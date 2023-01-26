@@ -171,7 +171,7 @@
 
 	ul, ol {
 		font-size: 22px;
-		margin: 0 0 0 50px;
+		margin: 0 0 22px 50px;
 	}
 
 	h2 {
@@ -187,6 +187,11 @@
 	h4 {
 		font-size: 27px;
 		margin: 0;
+	}
+
+	h5 {
+		font-size: 25px;
+		margin: 0 0 0 0;
 	}
 
 	.page__header {
@@ -456,6 +461,20 @@
 		margin-bottom: 50px;
 	}
 	/*end company page*/
+	/*product page*/
+	.products__block {
+		padding: 100px 0;
+	}
+
+	.products__block_warning {
+		margin-top: 90px;
+		font-size: 25px;
+	}
+
+	.quality__image {
+		width: 48%;
+	}
+	/*end product page*/
 }
 @media screen and (max-width:1024px){
 	p {
@@ -465,7 +484,7 @@
 
 	ul, ol {
 		font-size: 17px;
-		margin: 0 0 0 40px;
+		margin: 0 0 17px 40px;
 	}
 
 	h2 {
@@ -481,6 +500,11 @@
 	h4 {
 		font-size: 23px;
 		margin: 0;
+	}
+
+	h5 {
+		font-size: 21px;
+		margin: 0 0 0 0;
 	}
 
 	.page__header {
@@ -586,7 +610,7 @@
 	}
 
 	.footer__logo {
-		width: 50%;
+		width: 200px;
 		margin-bottom: 40px;
 	}
 
@@ -923,6 +947,20 @@
 		margin-bottom: 50px;
 	}
 	/*end company page*/
+	/*product page*/
+	.products__block {
+		padding: 70px 0;
+	}
+
+	.products__block_warning {
+		margin-top: 50px;
+		font-size: 22px;
+	}
+
+	.quality__images {
+		margin: 30px 0;
+	}
+	/*end product page*/
 }
 @media screen and (max-width:768px) {
 	p {
@@ -932,7 +970,7 @@
 
 	ul, ol {
 		font-size: 15px;
-		margin: 0 0 0 25px;
+		margin: 0 0 15px 25px;
 	}
 
 	h2 {
@@ -949,6 +987,12 @@
 		font-size: 17px;
 		margin: 0;
 	}
+
+	h5 {
+		font-size: 16px;
+		margin: 0 0 0 0;
+	}
+
 
 	.header {
 		width: 90%;
@@ -1285,4 +1329,39 @@
 	}
 
 	/*end company page*/
+	/*product page*/
+	.products__block {
+		padding: 30px 0;
+	}
+
+	.products__block_items {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.products__block_item {
+		width: 70%;
+		margin: 20px 0;
+	}
+
+	.products__block_warning {
+		margin-top: 40px;
+		font-size: 14px;
+	}
+
+	.warning__text {
+		font-size: 14px;
+	}
+
+	.quality__images {
+		justify-content: center;
+		flex-wrap: wrap;
+		margin: 10px 0;
+	}
+
+	.quality__image {
+		width: 90%;
+		margin: 20px 0;
+	}
+	/*end product page*/
 }

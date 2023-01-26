@@ -67,17 +67,22 @@ h4 {
 	color: #3071aa;
 }
 
+h5 {
+	font-size: 30px;
+	margin: 0 0 0 0;
+	color: #3071aa;
+}
+
 ul,
 ol {
 	font-size: 30px;
-	margin: 0 0 0 70px;
+	margin: 0 0 30px 70px;
 	padding: 0;
     color: #464646;
 }
 
 li::marker {
 	color: #464646;
-	font-size: 16px;
 }
 
 table {
