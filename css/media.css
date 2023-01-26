@@ -961,6 +961,16 @@
 		margin: 30px 0;
 	}
 	/*end product page*/
+	/*health page*/
+	.health__items {
+		margin: 30px 0;
+	}
+
+	.health__item {
+		width: 31%;
+		margin-bottom: 35px;
+	}
+	/*end health page*/
 }
 @media screen and (max-width:768px) {
 	p {
@@ -1364,4 +1374,17 @@
 		margin: 20px 0;
 	}
 	/*end product page*/
+	/*health page*/
+	.health__items {
+		margin: 30px 0;
+	}
+
+	.health__item {
+		width: 100%;
+	}
+
+	.health__item .main__content_block {
+		padding-bottom: 15px;
+	}
+	/*end health page*/
 }

@@ -324,6 +324,7 @@ body {
 
 .main__content_item:hover .main__content_img img {
 	transform: scale(1.1);
+	transition: 500ms linear;
 }
 
 .main__content_info {
@@ -855,3 +856,28 @@ body {
 	width: 46%;
 }
 /*end product page*/
+/*health page*/
+.health__items {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 40px 0;
+	align-items: stretch;
+}
+
+.health__item {
+	width: 23%;
+	margin-bottom: 50px;
+	position: relative;
+}
+
+
+.health__item:hover .main__content_header {
+	color: #00a910;
+}
+
+.health__item:hover .main__content_img img {
+	transform: scale(1.1);
+	transition: 500ms linear;
+}
+/*end health page*/
