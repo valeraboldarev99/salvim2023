@@ -70,10 +70,9 @@ h4 {
 ul,
 ol {
 	font-size: 30px;
-	margin: 0;
+	margin: 0 0 0 70px;
 	padding: 0;
     color: #464646;
-    margin-left: 70px;
 }
 
 li::marker {

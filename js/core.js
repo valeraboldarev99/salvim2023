@@ -100,6 +100,7 @@ $(document).ready(function () {
 				settings: {
 					slidesToShow:3,
 					arrows:false,
+					centerMode: false,
 				}
 			}
 		]

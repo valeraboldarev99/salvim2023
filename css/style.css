@@ -334,17 +334,18 @@ body {
 	color: #464646;
 	font-size: 23px;
 	font-weight: bold;
+	margin: 0;
 }
 
 .main__content_text {
 	font-weight: 500;
 	font-size: 20px;
-	margin-top: 15px;
 	-webkit-line-clamp: 3;
 	-webkit-box-orient: vertical;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	display: -webkit-box;
+	margin: 15px 0 0 0;
 }
 
 .mask {
@@ -710,7 +711,6 @@ body {
 	margin: 40px 0;
 }
 
-
 .company__production_header {
 	text-align: center;
 	margin-top: 100px;
@@ -720,7 +720,6 @@ body {
 	display: flex;
 	justify-content: space-around;
 	align-items: stretch;
-	margin-bottom: 40px;
 	width: 80%;
 	margin: 0 auto;
 }
@@ -782,7 +781,6 @@ body {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	margin-top: 200px;
 	width: 90%;
 	margin: 200px auto;
 }
