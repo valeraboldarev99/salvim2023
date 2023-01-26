@@ -61,6 +61,60 @@ $(document).ready(function () {
 	}();
 	mobileSidebar.init();
 
+	// слaйдер на странице компании
+	$('.slider__digitals').slick({
+		slidesToScroll:1,
+		slidesToShow:9,
+		autoplay: true,
+		autoplaySpeed: 3000,
+		pauseOnHover:true,
+		arrows:false,
+		dots:false,
+		focusOnSelect: true,
+		centerMode: true,
+		asNavFor: '.slider__digitals_content',
+		responsive: [
+			{
+				breakpoint: 1600,
+				settings: {
+					slidesToShow:8,
+					arrows:false,
+				}
+			},
+			{
+				breakpoint: 1500,
+				settings: {
+					slidesToShow:6,
+					arrows:false,
+				}
+			},
+			{
+				breakpoint: 1200,
+				settings: {
+					slidesToShow:5,
+					arrows:false,
+				}
+			},
+			{
+				breakpoint: 767,
+				settings: {
+					slidesToShow:3,
+					arrows:false,
+				}
+			}
+		]
+	});
+
+	$('.slider__digitals_content').slick({
+	    slidesToShow: 1,
+	    slidesToScroll: 1,
+	    arrows: false,
+	    dots:false,
+	    draggable:false,
+	    // autoplay: true,
+	    fade: true,
+	    asNavFor: '.slider__digitals'
+	});
 
 
 });
