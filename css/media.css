@@ -162,6 +162,28 @@
 		margin: 160px auto;
 	}
 	/*end company page*/
+	/* cookie asker*/
+	.cookie__note {
+		padding: 20px;
+	}
+
+	.cookie__note p {
+		font-size: 15px;
+	}
+
+	.btn {
+		padding: 15px 40px;
+		font-size: 16px;
+	}
+
+	.cookie__note .btn {
+		margin: 25px 25px 20px 0;
+	}
+
+	.cookie__note .btn:last-child {
+		margin: 25px 0 20px 0;
+	}
+	/*end cookie */
 }
 @media screen and (max-width:1300px) {
 	p {
@@ -475,6 +497,23 @@
 		width: 48%;
 	}
 	/*end product page*/
+	/* cookie asker*/
+	.cookie__note p {
+		font-size: 14px;
+	}
+
+	.btn {
+		font-size: 14px;
+	}
+
+	.cookie__note .btn {
+		margin: 20px 20px 15px 0;
+	}
+
+	.cookie__note .btn:last-child {
+		margin: 20px 0 15px 0;
+	}
+	/*end cookie */
 }
 @media screen and (max-width:1024px){
 	p {
@@ -1387,4 +1426,29 @@
 		padding-bottom: 15px;
 	}
 	/*end health page*/
+	/* cookie asker*/
+	.cookie__note {
+		padding: 15px;
+	}
+
+	.cookie__note p {
+		font-size: 12px;
+		margin-bottom: 10px;
+	}
+
+	.btn {
+		padding: 10px 30px;
+		font-size: 12px;
+	}
+
+	.cookie__note .btn {
+		width: 80%;
+		margin: 10px auto;
+		text-align: center;
+	}
+
+	.cookie__note .btn:last-child {
+		margin: 10px auto;
+	}
+	/*end cookie */
 }

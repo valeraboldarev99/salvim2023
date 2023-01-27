@@ -881,3 +881,59 @@ body {
 	transition: 500ms linear;
 }
 /*end health page*/
+
+/* cookie asker*/
+.cookie__note {
+	display: none;
+	position: fixed;
+	bottom: 25px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 90%;
+	padding: 20px;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 2px 3px 10px #464646;
+	z-index: 9999;
+}
+
+#cookie__note.show {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.cookie__note p {
+	margin: 0;
+	font-size: 19px;
+	text-align: center;
+	color: #464646;
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+.btn {
+	padding: 20px 60px;
+	border-radius: 33px;
+	border: 1px solid #8ABF3E;
+	background-color: #fff;
+	text-decoration: none;
+	color: #00A910;
+	cursor: pointer;
+	font-size: 19px;
+}
+
+.btn:hover {
+	background-color: #8ABF3E;
+	transition: 500ms linear;
+	color: #fff;
+}
+
+.cookie__note .btn {
+	margin: 30px 30px 25px 0;
+}
+
+.cookie__note .btn:last-child {
+	margin: 30px 0 25px 0;
+}
+/*end cookie */
