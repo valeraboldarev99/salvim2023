@@ -937,3 +937,16 @@ body {
 	margin: 30px 0 25px 0;
 }
 /*end cookie */
+.inner__page {
+	padding: 0 0 70px 0;
+}
+
+.header__block {
+	background-color: #0071BC;
+	color: #fff;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 120px 0;
+	margin-bottom: 70px;
+}
