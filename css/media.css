@@ -1057,6 +1057,11 @@
 	.inner__page_info {
 		margin-top: 50px;
 	}
+
+	.inner__image_left {
+		width: 50%;
+		margin: 0 35px 35px 0;
+	}
 }
 @media screen and (max-width:768px) {
 	p {
@@ -1524,5 +1529,10 @@
 
 	.inner__page_info {
 		margin-top: 50px;
+	}
+
+	.inner__image_left {
+		width: 100%;
+		margin: 0 0 35px 0;
 	}
 }
