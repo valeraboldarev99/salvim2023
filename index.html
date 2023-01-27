@@ -11,87 +11,79 @@
 	<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
 
 	<style>
-		body {
-			background-color: #70acd9;
-			font-size: 15px;
-			color: #2e3669;
+		html, body {
+			margin: -4px 0;
+		}
+		.page {
 			margin: 0;
-			padding: 5px 12px;
-			box-sizing: border-box;
+			background: url('bg.png') center center no-repeat;
+			padding: 25px 0;
+			height: 100vh;
 		}
-		a {
-			font-size: 15px;
-			color:#2e3669;
-			transition: all 0.5s;
-			text-decoration: none;
-			font-weight: 700;
+		.wrapper {
+			width: 90%;
+			margin: 0 auto;
 		}
-		a:hover {
-			color: red;
-		}
-		.pages__title {
-			display: inline-block;
-			vertical-align: middle;
-		}
-		.pages__logo {
-			display: inline-block;
-			vertical-align: middle;
-			margin: 15px;
+		.site__items {
+			background: #fff;
+			border-radius: 20px;
 		}
 		.pages__logo img {
-			width: 180px;
+			width: 250px;
+			display: block;
+			margin: 10px auto;
 		}
-		.pages__list {
-			margin: 22px 0;
+		.site__item {
+			padding: 15px;
+			border-bottom: 1px solid #ccc;
 		}
-		.pages__item {
-			list-style: none;
-			padding: 5px 0;
+		.site__item:last-child {
+			border-bottom: none;
 		}
-		.pages__spacer {
-			padding: 0 10px;
+		.site__item a {
+			font-size: 18px;
+			margin: 5px 0;
+			text-decoration: none;
+			color: #0071bc;
 		}
-		.pages__file-name {
-			color: #02509d;
-		}
-		.check {
-			color: green;
+		.site__item a:hover {
+			color: #8abf3e;
 		}
 	</style>
 </head>
 <body>
-	<div class="pages">
-		<div class="pages__logo"><img src="img/logo.png" alt="logo"></div>
-		<ol class="pages__list">
-			<li class="pages__item check">
-				<a href="main.html" class="page-list__link check">Главная</a>
-				<span class="pages__spacer">—</span><span class="pages__file-name">main.html</span>
-			</li>
-			<li class="pages__item check">
-				<a href="company.html" class="page-list__link check">Компания</a>
-				<span class="pages__spacer">—</span><span class="pages__file-name">company.html</span>
-			</li>
-			<li class="pages__item check">
-				<a href="products.html" class="page-list__link check">Продукция</a>
-				<span class="pages__spacer">—</span><span class="pages__file-name">products.html</span>
-			</li>
-			<li class="pages__item check">
-				<a href="health.html" class="page-list__link check">Ваше здоровье</a>
-				<span class="pages__spacer">—</span><span class="pages__file-name">health.html</span>
-			</li>
-			<li class="pages__item check">
-				<a href="spec.html" class="page-list__link check">Специалистам</a>
-				<span class="pages__spacer">—</span><span class="pages__file-name">spec.html</span>
-			</li>
-			<!-- <li class="pages__item check">
-				<a href="career.html" class="page-list__link check">Карьера</a>
-				<span class="pages__spacer">—</span><span class="pages__file-name">career.html</span>
-			</li>
-			<li class="pages__item check">
-				<a href="news.html" class="page-list__link check">Новости</a>
-				<span class="pages__spacer">—</span><span class="pages__file-name">news.html</span>
-			</li> -->
-		</ol>
+	<div class="page">
+		<div class="wrapper">
+			<div class="site__items">
+				<div class="site__item">
+					<div class="pages__logo"><img src="img/logo.png" alt="logo"></div>
+				</div>
+				<div class="site__item">
+					<a href="main.html">Главная - main.html</a>
+				</div>
+				<div class="site__item">
+					<a href="company.html">Компания - company.html</a>
+				</div>
+				<div class="site__item">
+					<a href="products.html">Продукция - products.html</a>
+				</div>
+				<div class="site__item">
+					<a href="health.html">Ваше здоровье - health.html</a>
+				</div>
+				<div class="site__item">
+					<a href="spec.html">Специалистам - spec.html</a>
+				</div>
+				<div class="site__item">
+					<a href="news_inner.html">Страница новости - news_inner.html</a>
+				</div>
+				<!-- <div class="site__item">
+					<a href="career.html">Карьера - career.html</a>
+				</div>
+				<div class="site__item">
+					<a href="news.html">Новости - news.html</a>
+				</div> -->
+			</div>
+		</div>
 	</div>
 </body>
 </html>
