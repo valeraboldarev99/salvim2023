@@ -948,5 +948,8 @@ body {
 	justify-content: flex-start;
 	align-items: center;
 	padding: 120px 0;
-	margin-bottom: 70px;
+}
+
+.inner__page_info {
+	margin-top: 70px;
 }

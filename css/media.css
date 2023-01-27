@@ -196,7 +196,6 @@
 
 	.header__block {
 		padding: 100px 0;
-		margin-bottom: 70px;
 	}
 }
 @media screen and (max-width:1300px) {
@@ -1053,7 +1052,10 @@
 
 	.header__block {
 		padding: 50px 0;
-		margin-bottom: 50px;
+	}
+
+	.inner__page_info {
+		margin-top: 50px;
 	}
 }
 @media screen and (max-width:768px) {
@@ -1518,6 +1520,9 @@
 
 	.header__block {
 		padding: 40px 0;
-		margin-bottom: 40px;
+	}
+
+	.inner__page_info {
+		margin-top: 50px;
 	}
 }
