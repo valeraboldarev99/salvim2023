@@ -1009,3 +1009,20 @@ body {
 	background: url('../img/footer_contacts/email-blue.png') center center no-repeat;
 	background-size: 64px;
 }
+
+.vacancy__block_items {
+	display: flex;
+	justify-content: flex-start;
+	align-items: baseline;
+}
+
+.vacancy__block_item {
+	display: flex;
+	justify-content: flex-start;
+	align-items: baseline;
+	margin-right: 20px;
+}
+
+.vacancy__block_item * {
+	margin-right: 7px;
+}

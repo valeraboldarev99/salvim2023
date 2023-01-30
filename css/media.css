@@ -1134,6 +1134,14 @@
 	.contact__item_email:before {
 		background-size: 25px;
 	}
+
+	.vacancy__block_item {
+		margin-right: 10px;
+	}
+
+	.vacancy__block_item * {
+		margin-right: 5px;
+	}
 }
 @media screen and (max-width:768px) {
 	p {
@@ -1637,5 +1645,18 @@
 	.contact__item_phone:before,
 	.contact__item_email:before {
 		background-size: 30px;
+	}
+
+	.vacancy__block_items {
+		flex-wrap: wrap;
+	}
+
+	.vacancy__block_item {
+		margin-right: 0px;
+		width: 100%;
+	}
+
+	.vacancy__block_item * {
+		margin-right: 5px;
 	}
 }
