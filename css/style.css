@@ -959,3 +959,53 @@ body {
 	width: 40%;
 	margin: 0 50px 50px 0;
 }
+
+.contacts__map img {
+	height: 500px;
+	width: 100%;
+	object-fit: cover;
+}
+
+.contact__items {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 75px 0;
+}
+
+.contact__item {
+	margin-left: 70px;
+	position: relative;
+	width: 30%;
+}
+
+.contact__item:before {
+	content: '';
+	position: absolute;
+	left: -75px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 64px;
+	height: 64px;
+}
+
+.contact__link {
+	display: block;
+	font-size: 33px;
+	color: #0071bc;
+}
+
+.contact__item_address:before {
+	background: url('../img/footer_contacts/location-blue.png') center center no-repeat;
+	background-size: 64px;
+}
+
+.contact__item_phone:before {
+	background: url('../img/footer_contacts/Phone-blue.png') center center no-repeat;
+	background-size: 64px;
+}
+
+.contact__item_email:before {
+	background: url('../img/footer_contacts/email-blue.png') center center no-repeat;
+	background-size: 64px;
+}
