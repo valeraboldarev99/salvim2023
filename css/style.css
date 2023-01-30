@@ -277,13 +277,14 @@ body {
 	width: 23%;
 	max-width: 393px;
 	position: relative;
+	line-height: 1.4;
 }
 
 .main__content_block-name {
 	font-size: 11px;
 	font-weight: bold;
 	background-color: #EBEBEB;
-	margin-bottom: -5px;
+	padding: 2px;
 }
 
 .main_news {
@@ -300,6 +301,7 @@ body {
 	padding: 1px;
 	margin-top: -2px;
 	height: 100%;
+	line-height: 1.5;
 }
 
 .main__content_img {

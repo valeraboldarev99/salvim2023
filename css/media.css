@@ -339,10 +339,6 @@
 		font-size: 11px;
 	}
 
-	.main__content_block {
-		margin-top: -4px;
-	}
-
 	.main__content_info {
 		padding: 5px 5px 0 5px;
 	}
@@ -694,10 +690,7 @@
 		width: 47%;
 		max-width: 400px;
 		margin-bottom: 35px;
-	}
-
-	.main__content_block {
-		margin-top: -5px;
+		line-height: 1.5;
 	}
 
 	.main__content_info {
@@ -1235,7 +1228,6 @@
 	}
 
 	.main__content_block {
-		margin-top: -4px;
 		height: auto;
 	}
 
