@@ -13,6 +13,11 @@
 		font-size: 90px;
 	}
 
+	.wrapper,
+	.header {
+		width: 1280px;
+	}
+
 	.header__menu_item a {
 		font-size: 18px;
 		padding: 7px 7px;
@@ -260,6 +265,11 @@
 	h5 {
 		font-size: 25px;
 		margin: 0 0 0 0;
+	}
+
+	.wrapper,
+	.header {
+		width: 1000px;
 	}
 
 	.page__header {
@@ -623,6 +633,11 @@
 	h5 {
 		font-size: 21px;
 		margin: 0 0 0 0;
+	}
+
+	.wrapper,
+	.header {
+		width: 760px;
 	}
 
 	.page__header {
@@ -1159,7 +1174,7 @@
 	}
 
 	h1 {
-		font-size: 27px;
+		font-size: 26px;
 	}
 
 	h2 {
@@ -1182,13 +1197,9 @@
 		margin: 0 0 0 0;
 	}
 
-
+	.wrapper,
 	.header {
-		width: 90%;
-	}
-
-	.wrapper {
-		min-width: 300px;
+		width: 320px;
 	}
 
 	.page__header {

@@ -107,6 +107,10 @@ td {
 	word-wrap: break-word;
 }
 
+table tr td:last-child {
+     word-break: break-word;
+ }
+
 div {
 	vertical-align: top;
 }
