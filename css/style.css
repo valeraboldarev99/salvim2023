@@ -672,6 +672,10 @@ body {
 	margin-bottom: 50px;
 }
 
+.slider__digitals .slick-slide {
+	text-align: center;
+}
+
 .slide__year {
 	text-transform: uppercase;
 	font-size: 40px;
