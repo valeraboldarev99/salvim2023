@@ -862,6 +862,37 @@ body {
 	width: 46%;
 }
 /*end product page*/
+/*specialsts*/
+.residential__block {
+	margin: 0 auto 100px auto;
+	text-align: center;
+}
+.residential__links {
+	display: flex;
+	justify-content: center;
+}
+.residential__link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 19px;
+}
+
+.residential__link .social__item_footer:before {
+	left: -7px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 50px;
+	height: 50px;
+	border: 1px solid #0071bc;
+	border-radius: 50%;
+}
+
+.residential__link:hover .social__item_telegtam:before {
+	background: url('../img/social_icons/tg.png') center center no-repeat;
+	background-size: 50px;
+}
+/*end specialsts*/
 /*health page*/
 .health__items {
 	display: flex;
