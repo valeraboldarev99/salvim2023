@@ -147,4 +147,15 @@ $(document).ready(function () {
 	checkCookies();
 	// end cookie asker
 
+	/*кастомный селект городов*/
+	$('.cities__item').on("click", function() {
+		var checked__city_id = $(this).attr('id');
+		$('#js-city__btn').html(checked__city_id);
+	});
+
+	/*кастомная кнопка загрузки файлов, выводить имя файла */
+	$('.js_career_file').change(function(e){
+		var fileName = e.target.files[0].name;
+		$("#file__name").html(fileName);
+	});
 });

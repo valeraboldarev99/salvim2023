@@ -237,6 +237,44 @@
 	.contact__item_email:before {
 		background-size: 45px;
 	}
+	/*career page*/
+	.vacancies__item {
+		border-left: 15px solid #0071bc;
+		padding: 15px 15px 15px 10px;
+		width: 24%;
+		height: 350px;
+		margin-right: 17px;
+	}
+
+	.vacancy__name {
+		font-size: 25px;
+	}
+
+	.vacancy__info {
+		font-size: 30px;
+	}
+
+	.link__btn {
+		font-size: 30px;
+	}
+
+	.form__item {
+		font-size: 25px;
+	}
+
+	.form__item::-webkit-input-placeholder {font-size: 25px;}
+	.form__item::-moz-placeholder          {font-size: 25px;}
+	.form__item:-moz-placeholder           {font-size: 25px;}
+	.form__item:-ms-input-placeholder      {font-size: 25px;}
+
+	.file__btn {
+		font-size: 25px;
+	}
+
+	.file__name {
+		font-size: 20px;
+	}
+	/*end career page*/
 }
 @media screen and (max-width:1300px) {
 	p {
@@ -624,6 +662,76 @@
 	.contact__item_email:before {
 		background-size: 30px;
 	}
+	/*career page*/
+	.vacancies__items {
+		margin: 50px 0;
+	}
+
+	.vacancies__item {
+		border-left: 10px solid #0071bc;
+		padding: 10px 10px 10px 8px;
+		margin-bottom: 20px;
+		margin-right: 10px;
+		height: 300px;
+	}
+
+	.vacancies__item:nth-child(4n) {
+		margin-right: 0px;
+	}
+
+	.vacancy__name {
+		font-size: 20px;
+	}
+
+	.vacancy__text {
+		font-size: 13px;
+	}
+
+	.vacancy__links {
+		flex-wrap: wrap;
+		bottom: 15px;
+	}
+
+	.vacancy__link {
+		margin: 5px 0;
+	}
+
+	.vacancy__info {
+		font-size: 25px;
+		margin: 50px 0;
+	}
+
+	.link__btn {
+		font-size: 25px;
+	}
+
+	.form__item {
+		padding: 12px 25px;
+		font-size: 20px;
+	}
+
+	.form__item::-webkit-input-placeholder {font-size: 20px;}
+	.form__item::-moz-placeholder          {font-size: 20px;}
+	.form__item:-moz-placeholder           {font-size: 20px;}
+	.form__item:-ms-input-placeholder      {font-size: 20px;}
+
+	.form__textarea {
+		height: 150px;
+	}
+
+	.vacancy__upload {
+		padding: 12px 25px 12px 0;
+	}
+
+	.file__btn {
+		padding: 16px 15px;
+		font-size: 20px;
+	}
+
+	.file__name {
+		font-size: 16px;
+	}
+	/*end career page*/
 }
 @media screen and (max-width:1024px){
 	p {
@@ -1191,6 +1299,85 @@
 	.vacancy__block_item * {
 		margin-right: 5px;
 	}
+
+	/*career page*/
+	.city__btn {
+		font-size: 17px;
+	}
+
+	.cities__items {
+		max-height: 200px;
+		top: 46px;
+	}
+
+	.cities__item {
+		font-size: 17px;
+	}
+
+	.vacancies__items {
+		margin: 40px 0;
+		justify-content: space-between;
+	}
+
+	.vacancies__item {
+		border-left: 15px solid #0071bc;
+		padding: 15px 15px 15px 10px;
+		width: 47%;
+		margin-bottom: 25px;
+		margin-right: 0;
+		height: 240px;
+	}
+
+	.vacancy__name {
+		font-size: 18px;
+	}
+
+	.vacancy__links {
+		width: 93%;
+	}
+
+	.vacancy__link {
+		width: auto;
+		margin: 0;
+	}
+
+	.vacancy__info {
+		font-size: 25px;
+	}
+
+	.link__btn {
+		font-size: 25px;
+		padding: 15px 70px;
+	}
+
+	.vacancy__form {
+		margin-bottom: 120px;
+	}
+
+	.form__item {
+		padding: 12px 20px;
+		font-size: 20px;
+	}
+
+	.form__item::-webkit-input-placeholder {font-size: 20px;}
+	.form__item::-moz-placeholder          {font-size: 20px;}
+	.form__item:-moz-placeholder           {font-size: 20px;}
+	.form__item:-ms-input-placeholder      {font-size: 20px;}
+
+	.form__textarea {
+		height: 120px;
+	}
+
+	.vacancy__upload {
+		padding: 12px 20px 12px 0;
+	}
+
+	.file__btn {
+		padding: 17px 15px;
+		margin-left: -2px;
+		font-size: 20px;
+	}
+	/*end career page*/
 }
 @media screen and (max-width:768px) {
 	p {
@@ -1722,4 +1909,103 @@
 	.vacancy__block_item * {
 		margin-right: 5px;
 	}
+
+	/*career page*/
+	.cities__block:before {
+		width: 25px;
+		height: 14px;
+		background-size: 19px;
+	}
+
+	.city__btn {
+		font-size: 16px;
+	}
+
+	.cities__items {
+		max-height: 200px;
+		top: 45px;
+	}
+
+	.cities__item {
+		cursor: pointer;
+		font-size: 16px;
+	}
+
+	.vacancies__items {
+		justify-content: center;
+		margin: 40px 0;
+	}
+
+	.vacancies__item {
+		border-left: 10px solid #0071bc;
+		padding: 10px 10px 10px 7px;
+		width: 100%;
+		height: 240px;
+		margin-bottom: 20px;
+		margin-right: 0;
+	}
+
+	.vacancy__name {
+		font-size: 20px;
+	}
+
+	.vacancy__text {
+		font-size: 13px;
+	}
+
+	.vacancy__links {
+		bottom: 10px;
+	}
+
+	.vacancy__info {
+		font-size: 20px;
+		margin: 40px 0;
+	}
+
+	.link__btn {
+		font-size: 20px;
+		padding: 15px 70px;
+	}
+
+	.vacancy__form {
+		margin-bottom: 90px;
+	}
+
+	.form__item {
+		border-radius: 15px;
+		padding: 10px 20px;
+		font-size: 14px;
+	}
+
+	.form__item::-webkit-input-placeholder {font-size: 14px;}
+	.form__item::-moz-placeholder          {font-size: 14px;}
+	.form__item:-moz-placeholder           {font-size: 14px;}
+	.form__item:-ms-input-placeholder      {font-size: 14px;}
+
+	.form__textarea {
+		height: 100px;
+	}
+
+	.vacancy__upload {
+		border-radius: 15px;
+		padding: 10px 20px 10px 0;
+	}
+
+	.file__btn {
+		border-top-left-radius: 15px;
+		border-bottom-left-radius: 15px;
+		padding: 15px 10px;
+		margin-left: -2px;
+		font-size: 13px;
+	}
+
+	.file__name {
+		padding-left: 7px;
+		font-size: 12px;
+	}
+
+	.career__submit_btn {
+		font-size: 17px;
+	}
+	/*end career page*/
 }
