@@ -585,6 +585,14 @@
 	}
 	/*end company page*/
 	/*product page*/
+	.products__block_items {
+		width: 100%;
+	}
+
+	.product__filter_link {
+		font-size: 18px;
+	}
+
 	.products__block {
 		padding: 100px 0;
 	}
@@ -1246,6 +1254,14 @@
 		padding: 70px 0;
 	}
 
+	.products__block_item {
+		width: 33%;
+	}
+
+	.product__filter_link {
+		font-size: 17px;
+	}
+
 	.products__block_warning {
 		margin-top: 50px;
 		font-size: 22px;
@@ -1814,13 +1830,19 @@
 	}
 
 	.products__block_items {
-		flex-wrap: wrap;
+		display: flex;
 		justify-content: center;
 	}
 
 	.products__block_item {
-		width: 70%;
-		margin: 20px 0;
+		width: 90%;
+		margin: 5px 0;
+	}
+
+	.product__filter_link {
+		border-top: 1px solid #fff;
+		border-bottom: 1px solid #fff;
+		font-size: 15px;
 	}
 
 	.products__block_warning {
