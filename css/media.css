@@ -731,6 +731,32 @@
 	.file__name {
 		font-size: 16px;
 	}
+
+	.video__player {
+		height: 500px;
+		margin-bottom: 70px;
+	}
+
+	.video__player video {
+		height: 500px;
+	}
+
+	.career__videos {
+		margin-bottom: 60px;
+	}
+
+	.career__video {
+		width: 30%;
+		height: 270px;
+	}
+
+	.video__name {
+		font-size: 22px;
+	}
+
+	.video__watch {
+		font-size: 17px;
+	}
 	/*end career page*/
 }
 @media screen and (max-width:1024px){
@@ -1377,6 +1403,32 @@
 		margin-left: -2px;
 		font-size: 20px;
 	}
+
+	.video__player {
+		height: 400px;
+		margin-bottom: 60px;
+	}
+
+	.video__player video {
+		height: 400px;
+	}
+
+	.career__videos {
+		margin-bottom: 60px;
+	}
+
+	.career__video {
+		width: 47%;
+		height: 270px;
+	}
+
+	.video__name {
+		font-size: 22px;
+	}
+
+	.video__watch {
+		font-size: 17px;
+	}
 	/*end career page*/
 }
 @media screen and (max-width:768px) {
@@ -1965,6 +2017,9 @@
 	.link__btn {
 		font-size: 20px;
 		padding: 15px 70px;
+		width: 100%;
+		margin: 0;
+		transform: translateX(0%);
 	}
 
 	.vacancy__form {
@@ -2006,6 +2061,34 @@
 
 	.career__submit_btn {
 		font-size: 17px;
+	}
+
+	.video__player {
+		height: 350px;
+		margin-bottom: 50px;
+	}
+
+	.video__player video {
+		height: auto;
+		max-width: 320px;
+	}
+
+	.career__videos {
+		margin-bottom: 50px;
+		justify-content: center;
+	}
+
+	.career__video {
+		width: 90%;
+		height: 220px;
+	}
+
+	.video__name {
+		font-size: 19px;
+	}
+
+	.video__watch {
+		font-size: 14px;
 	}
 	/*end career page*/
 }

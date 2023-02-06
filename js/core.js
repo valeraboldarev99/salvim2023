@@ -148,14 +148,32 @@ $(document).ready(function () {
 	// end cookie asker
 
 	/*кастомный селект городов*/
+	$('#js-city__btn').on('mouseenter', function(){
+		$('.cities__items').css('display', 'block');
+	});
+	$('.cities__items').on('mouseleave', function(){
+		$('.cities__items').css('display', 'none');
+	});
 	$('.cities__item').on("click", function() {
 		var checked__city_id = $(this).attr('id');
 		$('#js-city__btn').html(checked__city_id);
+		$('.cities__items').css('display', 'none');
 	});
 
 	/*кастомная кнопка загрузки файлов, выводить имя файла */
 	$('.js_career_file').change(function(e){
 		var fileName = e.target.files[0].name;
 		$("#file__name").html(fileName);
+	});
+
+	// включение видео на странице карьеры
+	$('.video__watch').on('click', function(){
+		var src = $(this).attr('data-src');
+		var video = $('#js-video').attr('src', src);
+		$('.video__player').css('display', 'block');
+		document.getElementById('video__player').scrollIntoView({
+			behavior: 'smooth',
+			block: 'start'
+		})
 	});
 });
