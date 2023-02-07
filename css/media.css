@@ -585,7 +585,8 @@
 	}
 	/*end company page*/
 	/*product page*/
-	.products__block_items {
+	.products__block_items,
+	.spec__block_items {
 		width: 100%;
 	}
 
@@ -766,6 +767,19 @@
 		font-size: 17px;
 	}
 	/*end career page*/
+	/*news page*/
+	.news__item {
+		height: 320px;
+		width: 320px;
+	}
+	.news__item_header p {
+		font-size: 16px;
+	}
+	.news__item_date {
+		top: -24px;
+		font-size: 12px;
+	}
+	/*end news page*/
 }
 @media screen and (max-width:1024px){
 	p {
@@ -1829,7 +1843,8 @@
 		padding: 30px 0;
 	}
 
-	.products__block_items {
+	.products__block_items,
+	.spec__block_items {
 		display: flex;
 		justify-content: center;
 	}
@@ -1881,6 +1896,10 @@
 
 	.residential__link:hover .social__item_telegtam:before {
 		background-size: 40px;
+	}
+
+	.spec__small_text {
+		font-size: 14px;
 	}
 	/*end specialsts*/
 	/*health page*/
