@@ -131,7 +131,7 @@ figure {
 }
 
 a {
-	color: #0071bc;
+	color: #00A910;
 }
 
 a,
@@ -145,7 +145,11 @@ a:visited {
 
 a:hover {
 	text-decoration: none;
-	color: #00A910;
+	color: #0071bc;
+}
+
+footer a:hover {
+	color: #888;
 }
 
 i,

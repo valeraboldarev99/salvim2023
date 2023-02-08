@@ -321,7 +321,7 @@ body {
 }
 
 .main__content_item:hover .main__content_header {
-	color: #00a910;
+	color: #0071bc;
 }
 
 .main__content_item:hover .main__content_img img {
@@ -439,17 +439,17 @@ body {
 }
 
 .footer__contacts_link-phone:hover:before {
-	background: url('../img/footer_contacts/Phone-blue.png') center center no-repeat;
+	background: url('../img/footer_contacts/phone-hover.png') center center no-repeat;
 	background-size: 34px;
 }
 
 .footer__contacts_link-email:hover:before {
-	background: url('../img/footer_contacts/email-blue.png') center center no-repeat;
+	background: url('../img/footer_contacts/email-hover.png') center center no-repeat;
 	background-size: 34px;
 }
 
 .footer__contacts_link-address:hover:before {
-	background: url('../img/footer_contacts/location-blue.png') center center no-repeat;
+	background: url('../img/footer_contacts/location-hover.png') center center no-repeat;
 	background-size: 34px;
 }
 
@@ -961,7 +961,7 @@ body {
 
 
 .health__item:hover .main__content_header {
-	color: #00a910;
+	color: #0071BC;
 }
 
 .health__item:hover .main__content_img img {
@@ -1083,6 +1083,10 @@ body {
 	color: #0071bc;
 }
 
+.contact__link:hover {
+	color: #00A910;
+}
+
 .contact__item_address:before {
 	background: url('../img/footer_contacts/location-blue.png') center center no-repeat;
 	background-size: 64px;
@@ -1095,6 +1099,21 @@ body {
 
 .contact__item_email:before {
 	background: url('../img/footer_contacts/email-blue.png') center center no-repeat;
+	background-size: 64px;
+}
+
+.contact__item_address:hover:before {
+	background: url('../img/footer_contacts/location-green.png') center center no-repeat;
+	background-size: 64px;
+}
+
+.contact__item_phone:hover:before {
+	background: url('../img/footer_contacts/phone-green.png') center center no-repeat;
+	background-size: 64px;
+}
+
+.contact__item_email:hover:before {
+	background: url('../img/footer_contacts/email-green.png') center center no-repeat;
 	background-size: 64px;
 }
 
@@ -1260,6 +1279,7 @@ body {
 .vacancy__link {
 	font-weight: bold;
 	text-transform: uppercase;
+	color: #0071BC;
 	/*margin-right: 25px;*/
 }
 

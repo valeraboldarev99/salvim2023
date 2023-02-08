@@ -234,7 +234,10 @@
 
 	.contact__item_address:before,
 	.contact__item_phone:before,
-	.contact__item_email:before {
+	.contact__item_email:before,
+	.contact__item_address:hover:before,
+	.contact__item_phone:hover:before,
+	.contact__item_email:hover:before {
 		background-size: 45px;
 	}
 	/*career page*/
@@ -668,7 +671,10 @@
 
 	.contact__item_address:before,
 	.contact__item_phone:before,
-	.contact__item_email:before {
+	.contact__item_email:before,
+	.contact__item_address:hover:before,
+	.contact__item_phone:hover:before,
+	.contact__item_email:hover:before {
 		background-size: 30px;
 	}
 	/*career page*/
@@ -1344,7 +1350,10 @@
 
 	.contact__item_address:before,
 	.contact__item_phone:before,
-	.contact__item_email:before {
+	.contact__item_email:before,
+	.contact__item_address:hover:before,
+	.contact__item_phone:hover:before,
+	.contact__item_email:hover:before {
 		background-size: 25px;
 	}
 
@@ -1986,7 +1995,10 @@
 
 	.contact__item_address:before,
 	.contact__item_phone:before,
-	.contact__item_email:before {
+	.contact__item_email:before,
+	.contact__item_address:hover:before,
+	.contact__item_phone:hover:before,
+	.contact__item_email:hover:before {
 		background-size: 30px;
 	}
 
