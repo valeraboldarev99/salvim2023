@@ -941,6 +941,7 @@ body {
 .spec__small_text {
 	font-size: 20px;
 	margin: 0 0 5px 0;
+	font-weight: bold;
 }
 /*end specialsts*/
 /*health page*/
