@@ -238,7 +238,7 @@ blockquote ol:first-child {
 blockquote footer,
 blockquote small {
 	display: block;
-	font-size: 80%;
+	font-size: 60%;
 	line-height: 1.4;
 }
 
